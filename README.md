@@ -1,12 +1,40 @@
 # MentalHealth-GeoAnalysis
 
+**MentalHealth-GeoAnalysis** is a Python-based project that fetches top posts from selected subreddits using PRAW (Python Reddit API Wrapper) and analyzes the data to explore mental health trends with a geographic perspective. The project includes tools for data cleaning, analysis, and visualization, culminating in an interactive map (HTML) that highlights crisis posts.
 
-## Reddit Scraper  
+## Table of Contents
 
-A simple Python script to fetch posts from Reddit using **PRAW (Python Reddit API Wrapper)**.  
+- [Features](#features)
+- [Installation](#installation)
+- [Setup](#setup)
 
-###  Features  
-- Fetches top posts from specified subreddits  
-- Uses **PRAW** for easy Reddit API interaction  
-- Supports environment variables for API authentication  
+- [Results](#View-Results)
+
+## Features
+
+- **Reddit Scraper:** Uses PRAW to fetch top posts from specified mental health-related subreddits.
+- **API Authentication:** Leverages environment variables for secure API key management.
+- **Data Cleaning & Analysis:** Processes Reddit posts to prepare data for analysis.
+- **Geo Visualization:** Generates an interactive map (`reddit_crisis_map_final.html`) to visualize geographic trends in mental health-related posts.
+- **Jupyter Notebook:** Includes a notebook (`CodeFile.ipynb`) for exploratory analysis and reproducibility.
+
+## Installation
+
+1. **Clone the repository:**
+
+   ```bash
+   git clone https://github.com/OnePunchMonk/MentalHealth-GeoAnalysis.git
+   cd MentalHealth-GeoAnalysis
+   pip install praw pandas geopandas jupyter
+## Setup
+
+Add your Reddit API credentials in .env file.
+
+
+## View Results:
+
+The processed data is saved as cleaned_reddit_posts_final.csv and cleaned_reddit_posts_final.json.
+
+Open reddit_crisis_map_final.html in a web browser to explore the interactive map visualizing mental health-related posts geographically.
+   
 
