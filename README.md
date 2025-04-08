@@ -16,6 +16,7 @@
 - **API Authentication:** Leverages environment variables for secure API key management.
 - **Data Cleaning & Analysis:** Processes Reddit posts to prepare data for analysis.
 - **Geo Visualization:** Generates an interactive map (`reddit_crisis_map_final.html`) to visualize geographic trends in mental health-related posts.
+- - **PII Removal:** Includes a notebook (`PII_Removal.ipynb`) for user anonymization using Microsoft Presidio.
 - **Jupyter Notebook:** Includes a notebook (`CodeFile.ipynb`) for exploratory analysis and reproducibility.
 
 ## Installation
