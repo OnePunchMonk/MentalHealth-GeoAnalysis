@@ -1,4 +1,4 @@
-# 🧠 MentalHealth-GeoAnalysis
+# MentalHealth-GeoAnalysis
 
 **MentalHealth-GeoAnalysis** is a Python-based project that fetches and analyzes top Reddit posts from selected mental health-related subreddits. It aims to uncover geographic trends in mental health discussions through data cleaning, analysis, and interactive visualizations.
 
