@@ -7,6 +7,7 @@
 ## 📌 Table of Contents
 
 - [Features](#features)
+- [Technologies Used](#technologies-used)
 - [Installation](#installation)
 - [Setup](#setup)
 - [Usage & Results](#usage--results)
@@ -45,7 +46,17 @@ git clone https://github.com/OnePunchMonk/MentalHealth-GeoAnalysis.git
 cd MentalHealth-GeoAnalysis
 pip install praw pandas geopandas jupyter
 ```
+## 🧰 Technologies Used
 
+| Tool / Library      | Purpose                                 |
+|---------------------|------------------------------------------|
+| Python              | Core programming language                |
+| PRAW                | Reddit API integration                   |
+| Pandas              | Data manipulation and analysis           |
+| GeoPandas           | Geospatial data processing               |
+| Jupyter Notebook    | Interactive analysis and documentation   |
+| Microsoft Presidio  | PII detection and anonymization          |
+| HTML/Leaflet.js     | Interactive geographic visualization     |
 ---
 
 ## ⚙️ Setup
